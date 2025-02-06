@@ -97,3 +97,33 @@ h1 {
 .nav-link:hover, .nav-link.active {
     color: black;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding-top: 50px;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        transform: translateY(0);
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .game-start-button {
+        font-size: 30px;
+        padding: 8px 16px;
+    }
+
+    .navbar-logo {
+        font-size: 20px;
+    }
+
+    .navbar-links li {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+}
