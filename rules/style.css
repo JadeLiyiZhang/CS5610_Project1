@@ -32,6 +32,14 @@ h1 {
     margin: 10px;
 }
 
+.made-by {
+    text-align: center;
+    font-family: "Sour Gummy", serif;
+    font-size: 15px;
+    color: yellow;
+    margin: 20px;
+}
+
 p, ul {
     text-align: justify;
     font-size: 20px;
