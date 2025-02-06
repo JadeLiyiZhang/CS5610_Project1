@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Rubik+Distressed&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: url(background_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 60px;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-50px); 
+}
+
+h1 {
+    font-family: 'Henny Penny', sans-serif;
+    font-size: 150px;
+    color: #f0f3f7;
+    text-shadow: 4px 4px 10px darkgray;
+    border: none;
+    margin: 10px;
+}
+
+.game-start-button {
+    font-family: "Rubik Distressed", serif;
+    font-size: 50px;
+    color: #f0f3f7;
+    background-color: #8D91AA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.game-start-button:hover {
+    background-color: #4A475C;
+}
+
+.game-start-button:active {
+    background-color: #4A475C;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5B7493;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 50px;
+}
+
+.navbar-links li {
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: black;
+}
